@@ -57,7 +57,6 @@ class _ListViewDemoState extends State<ListViewDemo> {
 // 添加分割线
     var divideList =
         ListTile.divideTiles(context: context, tiles: _list).toList();
-    body:
     return new Scrollbar(
       child: new ListView(
         // 添加ListView控件
